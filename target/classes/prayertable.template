@@ -1,0 +1,39 @@
+<html>
+<head>
+<style>
+#prayertable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    table-layout: fixed;
+}
+
+#prayertable td, #prayertable th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#prayertable tr:nth-child(even){background-color: #f2f2f2;}
+
+#prayertable tr:hover {background-color: #ddd;}
+
+#prayertable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+#prayertable tr.active {
+	background-color: #A8C4AA;
+}
+</style>
+<title>Title of the document</title>
+</head>
+
+<body>
+%content%
+</body>
+
+</html>
